@@ -1,0 +1,25 @@
+
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+  color: var(--white);
+  font-family: 'Excon' serif;
+}
+
+.introduction__name {
+  font-weight: 600;
+  font-size: 6rem;
+  text-align: center;
+}
+
+.introduction__desc {
+  font-weight: 250;
+  font-family: 'Excon' serif;
+  font-size: 2rem;
+  color: var(--cerulean);
+  text-align: center;
+}
