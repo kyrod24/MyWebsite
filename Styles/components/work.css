@@ -1,0 +1,15 @@
+
+
+.work__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    margin-right: 3rem;
+  }
+
+  .work__projects {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+  }
