@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kyle Hall Dev</title>
+    <link rel="stylesheet" href="Styles/styles.css">
+    <link rel="stylesheet" href="Styles/utils.css">
+    <link rel="stylesheet" href="Styles/components/header.css">
+    <link rel="stylesheet" href="Styles/components/introduction.css">
+    <link rel="stylesheet" href="Styles/components/about.css">
+    <link rel="stylesheet" href="Styles/components/work.css">
+    <link rel="stylesheet" href="Styles/components/contact.css">
+    <link href="https://api.fontshare.com/v2/css?f[]=excon@100,400,500,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/15fef8375d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header container">
+        <nav>
+            <ul class="header__menu">
+                <li>
+                    <a class="header__link" href="./index.html">About</a>
+                </li>
+                <li>
+                    <a class="header__link" href="./index.html">Work</a>
+                </li>
+                <li>
+                    <a class="header__link" href="./contact.html">Contact</a>
+                </li>
+                <li>
+                    <a class="header__resume btn" href="/KyleHallResume.pdf">Resume</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-main">
+        <h1 class="introduction__name">Let's build your site!</h1>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="601c5893-5868-49aa-b1dd-ec6b9e049307">
+            <input placeholder="enter your name" type="text" name="name" required>
+            <input placeholder="enter@your-email.com" type="email" name="email" required>
+            <textarea placeholder="add a message" name="message" required></textarea>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <button class="btn header__resume" type="submit">Submit Info</button>
+        </form>
+    </main>
+</body>
+</html>
